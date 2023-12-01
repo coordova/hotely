@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Recomendations from "@/components/Recomendations";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
 	return (
@@ -15,6 +16,7 @@ export default function Home() {
 			<About />
 			<Recomendations />
 			<Find />
+			<Testimonials />
 			<Footer />
 			<div className="h-[4000px]"></div>
 		</main>
